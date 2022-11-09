@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(219, 217, 214);
+    margin: 15px;
+}
+.footer_principal{
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(9, 9, 237, 0.763);
+}
+
