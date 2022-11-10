@@ -1,11 +1,76 @@
-body{
-    background-color: rgb(219, 217, 214);
-    margin: 15px;
+.textPrincipal{
+    font-size: 70px;
+    padding: 20px;
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
-.footer_principal{
-    max-width: 100%;
-    margin: 0px;
-    padding: 0px;
-    background-color: rgba(9, 9, 237, 0.763);
+body{
+    background-color: rgb(255, 254, 253);
+   
+}
+footer{
+    background-color: rgb(32, 32, 180);
+}
+footer section{
+    font-size: 18px;
+    color: white;
+}
+.text-copyrig{
+    font-size: 18px;
+    background-color: rgb(18, 18, 112);
+    text-align: center;
+    color: white;
+}
+.listFooter{
+    display: grid;
+    gap: 1rem ;
+    grid-auto-rows: 20rem;
+    grid-template-columns: repeat(4,minmax(min(100%,15rem),1fr));
+}
+footer li:hover {
+    background-color: rgb(25, 25, 138);
+}
+nav{
+    margin: 10px;
+}
+.nombrePrincipal{
+    font-size: 40px;
 }
 
+
+.tols{
+    display: grid;
+    gap: 1rem ;
+    grid-auto-flow: dense;
+    grid-auto-rows: 10rem;
+    grid-template-columns: repeat(auto-fill,minmax(min(100%,10rem),1fr));
+}
+.tols{
+    margin: 60px;
+}
+.nameTols{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+.nameTols:hover{
+    background-color: aliceblue;
+}
+.gridDocente{
+    display: grid;
+    gap: 1rem ;
+    grid-auto-flow: dense;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill,minmax(min(100%,28rem),1fr));
+}
+.gridDocente{
+    margin-left: 20px;
+}
+.textDocente{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+    margin-bottom: 80px;
+
+}
