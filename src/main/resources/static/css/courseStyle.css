@@ -1,0 +1,31 @@
+.gridCourse{
+    display: grid;
+    gap: 1rem 1rem;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    grid-auto-flow: dense;
+    grid-auto-rows: 29rem;
+    grid-template-columns: repeat(auto-fill,minmax(min(100%,15rem),1fr));
+   
+}
+.gridCourse{
+    margin: 30px;
+}
+.gridCourse div:hover{
+    border: 2px;
+   background-color: rgb(78, 156, 234);
+}
+.gridCourse img{
+    width: 70%;
+    height: 300px;
+}
+.textMotivacion{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+    margin-bottom: 80px;
+}
+.gridCourse p{
+    
+    text-align: justify;
+}
